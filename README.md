@@ -26,6 +26,7 @@ TODO: Make a prompter script for the above, automate incrementally.
 	1. `--cask p4v` for `p4merge`
 	1. `espanso`: <https://espanso.org/docs/install/mac/#install-using-homebrew>
 	1. `zoxide`
+	1. `fzf`
 1. Config `Terminal`
 	1. Use `Pro` profile for dark mode, set to Monaco 14.
 	1. Set `Basic` and `Pro` profiles to `Close if the shell exited cleanly` for `When the shell exits:`.
