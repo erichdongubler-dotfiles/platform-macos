@@ -70,3 +70,22 @@ cask "jumpcut"
 
 tap "teddychan/tap", trusted: { casks: ["ice-2"] }
 cask "teddychan/tap/ice-2"
+
+# `mozilla-firefox`
+
+brew "mercurial"
+brew "sccache"
+brew "terminal-notifier"
+brew "watchman"
+cargo "cargo-vet"
+cargo "mach-cli"
+cargo "searchfox-cli"
+cargo "socorro-cli"
+cargo "stmo-cli"
+cargo "treeherder-cli"
+cargo "treeherder-dl"
+cargo "webspec-index"
+cask "claude-code"
+cask "element"
+uv "mozphab"
+uv "mozregression"

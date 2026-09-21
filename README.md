@@ -29,6 +29,7 @@ TODO: Make a prompter script for the above, automate incrementally.
    1. Configure dotfiles with `bellboy.toml` via `bellboy`
    1. TODO: Set up keys and stuff.
       1. GitHub
+      1. Mozilla
    1. Firefox
       1. Tampermonkey
 1. If applicable, install and configure Tailscale.
