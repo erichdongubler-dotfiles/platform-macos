@@ -41,3 +41,32 @@ cask "wezterm"
 
 # `full` tier
 cask "easy-move+resize"
+
+# Ad-hoc stuff that's not (yet?) in my standard
+
+brew "bash"
+brew "cargo-deny"
+brew "cargo-outdated"
+brew "cargo-update"
+brew "dust"
+brew "fastmod"
+brew "git-absorb"
+brew "ouch"
+brew "pueue", restart_service: :changed
+brew "spacer"
+brew "stylua"
+brew "taplo"
+brew "tombi"
+brew "tree-sitter-cli"
+brew "universal-ctags"
+brew "uv"
+cargo "cargo-temp"
+cargo "git-glimpse"
+cargo "ruplacer"
+cargo "sfz"
+cargo "treeify"
+cask "handy"
+cask "jumpcut"
+
+tap "teddychan/tap", trusted: { casks: ["ice-2"] }
+cask "teddychan/tap/ice-2"
