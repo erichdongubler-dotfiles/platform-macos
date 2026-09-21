@@ -89,3 +89,16 @@ cask "claude-code"
 cask "element"
 uv "mozphab"
 uv "mozregression"
+
+# `treeherder-dl`, `moz-webgpu-cts`
+
+brew "cargo-dist"
+brew "cargo-release"
+
+# wgpu
+
+brew "cargo-nextest"
+brew "typos-cli"
+brew "wasm-bindgen"
+brew "wasm-pack"
+brew "zizmor"
