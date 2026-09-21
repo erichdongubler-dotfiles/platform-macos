@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.erichdongubler.login.zellij</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/sh</string>
+        <string>-c</string>
+        <string>cd &amp;&amp; mkdir -p /tmp/zellij-sockets &amp;&amp; exec /opt/homebrew/bin/zellij web --start</string>
+    </array>
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>ZELLIJ_SOCKET_DIR</key>
+        <string>/tmp/zellij-sockets/</string>
+        <key>SHELL</key>
+        <string>/opt/homebrew/bin/nu</string>
+        <key>TERM</key>
+        <string>xterm-256color</string>
+    </dict>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>StandardOutPath</key>
+    <string>/tmp/zellij-launchd.out.log</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/zellij-launchd.err.log</string>
+</dict>
+</plist>

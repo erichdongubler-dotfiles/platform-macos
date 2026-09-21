@@ -1,0 +1,32 @@
+[bellboy]
+type = "export"
+
+[repos.atuin]
+repo_url = "https://github.com/erichdongubler-dotfiles/atuin"
+
+[repos.espanso]
+repo_url = "https://github.com/erichdongubler-dotfiles/espanso"
+
+[repos.git]
+repo_url = "https://github.com/erichdongubler-dotfiles/git"
+
+[repos.jujutsu]
+repo_url = "https://github.com/erichdongubler-dotfiles/jujutsu"
+
+[repos.mdlink]
+repo_url = "https://github.com/erichdongubler-dotfiles/mdlink"
+
+[repos.neovim]
+repo_url = "https://github.com/erichdongubler-dotfiles/neovim"
+
+[repos.nushell]
+repo_url = "https://github.com/erichdongubler-dotfiles/nushell"
+
+[repos.starship]
+repo_url = "https://github.com/erichdongubler-dotfiles/starship"
+
+[repos.wezterm]
+repo_url = "https://github.com/erichdongubler-dotfiles/wezterm"
+
+[repos.zellij]
+repo_url = "https://github.com/erichdongubler-dotfiles/zellij"
